@@ -1,0 +1,25 @@
+@"
+# dependencies
+node_modules
+
+# build output
+dist
+
+# secrets (never commit these)
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# editor and OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+"@ | Set-Content -Encoding utf8 .gitignore
